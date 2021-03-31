@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Commonplace</title>
+        <meta charset="UTF-8">
+        <link rel='stylesheet' href= "main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+        <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    </head>
+
+    <body>
+
+
+
+
+
+
+    <div class="row">
+        <div class="column">
+            <h1 id="newText">Commonplace: a collective emotional diary</h1>
+          <p>A collective emotional journal during the COVID-19 pandemic.</p>
+          <p>Write your thoughts and emotions and press the 'submit' button to print.</p>
+          <label for="emotion">how do you feel?</label>
+          <input id="mood" value="" />
+          <button id="sendWord">submit</button>
+        </div>
+        
+        <div class="column">
+      <!-- Add a placeholder for the Twitch embed -->
+      <div id= video>
+        <!-- video tag to twitth will go here -->
+
+      <div id="twitch-embed"></div>
+    </div>
+          
+        </div>
+        
+      </div>
+    </body>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="data.js"></script>
+</html>
