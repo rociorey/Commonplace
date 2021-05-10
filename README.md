@@ -1,5 +1,7 @@
 # Commonplace
-A collective emotional journal during the COVID-19 pandemic.
+[Link to the project in my website](https://rocioreyaloe.com/Commonplace)
+
+A collective journal over the course of one day during the COVID-19 pandemic, created through public entries from a website which were live printed.
 
 
 ## How it works
